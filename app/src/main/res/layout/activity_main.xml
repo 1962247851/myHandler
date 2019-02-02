@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/but_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程向主线程发消息"/>
+
+    <Button
+        android:id="@+id/but_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程向子线程发消息"/>
+
+    <Button
+        android:id="@+id/but_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程~主线程~子线程多级发送"/>
+
+</LinearLayout>
